@@ -86,11 +86,11 @@
     <div class="container">
         <header class="d-flex justify-content-center py-3">
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index" class="nav-link active" aria-current="page">Inicio</a></li>
-                <li class="nav-item"><a href="sala" class="nav-link">Sala</a></li>
-                <li class="nav-item"><a href="sala" class="nav-link">Mascotas</a></li>
-                <li class="nav-item"><a href="sala" class="nav-link">Citas</a></li>
-                <li class="nav-item"><a href="sala" class="nav-link">Historiales Médicos</a></li>
+                <li class="nav-item"><a href="/pfn/public/index" class="nav-link active" aria-current="page">Inicio</a></li>
+                <li class="nav-item"><a href="/pfn/public/sala" class="nav-link">Sala</a></li>
+                <li class="nav-item"><a href="/pfn/public/mascotas" class="nav-link">Mascotas</a></li>
+                <li class="nav-item"><a href="/pfn/public/citas" class="nav-link">Citas</a></li>
+                <li class="nav-item"><a href="/pfn/public/historial" class="nav-link">Historiales Médicos</a></li>
                 
             </ul>
         </header>

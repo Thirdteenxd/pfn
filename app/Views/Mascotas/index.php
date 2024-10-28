@@ -6,6 +6,19 @@
     <title>Mascotas - index</title>
 </head>
 <body>
-    Index de mascotas
+    <h1>Mascotas</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, aspernatur. Mascotas</p>
+    <section>
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            Opciones
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="mascotas/ver">Ver Mascotas</a></li>
+            <li class="list-group-item"><a href="mascotas/crear">Registrar Mascotas</a></li>
+            <li class="list-group-item"><a href="mascotas/editar">Editar Mascotas</a></li>
+        </ul>
+    </div>
+    </section>
 </body>
 </html>

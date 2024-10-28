@@ -8,17 +8,20 @@ use CodeIgniter\Router\RouteCollection;
 
 $routes->get('/', 'Inicio::index');
 $routes->get('/index', 'Inicio::index');
-$routes->get('/sala', 'Inicio::sala');
+$routes->get('/sala', 'Administracion::index');
 
 $routes->get('/mascotas', 'Mascotas::index');
-$routes->get('/mascotas/lista', 'Mascotas::lista');
 $routes->get('/mascotas/crear', 'Mascotas::crear');
+$routes->post('mascotas/registrodb', 'Mascotas::registrobd');
+$routes->post('mascotas/ediciondb', 'Mascotas::ediciondb');
 $routes->get('/mascotas/editar', 'Mascotas::editar');
 $routes->get('/mascotas/ver', 'Mascotas::ver');
 
 $routes->get('/citas', 'Citas::index');
 $routes->get('/citas/lista', 'Citas::lista');
 $routes->get('/citas/programar', 'Citas::programar');
+$routes->post('citas/registrodb', 'Citas::registrodb');
+$routes->post('citas/ediciondb', 'Citas::ediciondb');
 $routes->get('/citas/editar', 'Citas::editar');
 
 $routes->get('/historial', 'HistorialesMedicos::index');
@@ -26,9 +29,4 @@ $routes->get('/historial/lista', 'HistorialesMedicos::lista');
 $routes->get('/historial/crear', 'HistorialesMedicos::crear');
 $routes->get('/historial/editar', 'HistorialesMedicos::ver');
 
-$routes->get('/admin', 'Administracion::index');
-
-
-$routes->get('/registro', 'Inicio::registro');
-$routes->post('/registrodb', 'Inicio::registrobd');
 
